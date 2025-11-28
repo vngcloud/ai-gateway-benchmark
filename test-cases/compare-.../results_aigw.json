@@ -1,0 +1,38 @@
+{
+  "config": {
+    "dataset": "test-cases/compare-.../datasets/ShareGPT_Vicuna_unfiltered.jsonl",
+    "model": "gemini-2.0-flash-lite",
+    "base_url": "https://user-60108-annd2.ai-gateway.vngcloud.vn/gemini/gemini-2.0-flash-lite",
+    "max_tokens": 512,
+    "temperature": 0.0,
+    "concurrency": 5,
+    "num_prompts": 1000
+  },
+  "metrics": {
+    "completed": 1000,
+    "failed": 0,
+    "duration_s": 624.1115516069985,
+    "requests_per_second": 1.6022776656274702,
+    "tokens_per_second": 686.9461058621309,
+    "ttft": {
+      "mean_ms": 599.2910674886953,
+      "median_ms": 594.151409008191,
+      "std_ms": 60.9344332039539,
+      "p50_ms": 594.151409008191,
+      "p90_ms": 670.1620281120995,
+      "p99_ms": 810.6296966713851
+    },
+    "itl": {
+      "mean_ms": 273.680098497611,
+      "median_ms": 294.12836700794287,
+      "std_ms": 144.76079997169302,
+      "p50_ms": 294.12836700794287,
+      "p90_ms": 446.4233294129372,
+      "p99_ms": 561.3926683249886
+    },
+    "e2e": {
+      "mean_ms": 3107.5691702193,
+      "median_ms": 3464.706645492697
+    }
+  }
+}

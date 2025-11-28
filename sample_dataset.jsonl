@@ -1,0 +1,10 @@
+{"prompt": "What is the capital of France?", "max_tokens": 100}
+{"prompt": "Explain what machine learning is in simple terms.", "max_tokens": 200}
+{"prompt": "Write a short poem about the ocean.", "max_tokens": 150}
+{"prompt": "What are the benefits of exercise?", "max_tokens": 200}
+{"prompt": "How does photosynthesis work?", "max_tokens": 200}
+{"prompt": "What is the difference between Python and JavaScript?", "max_tokens": 250}
+{"prompt": "Summarize the plot of Romeo and Juliet.", "max_tokens": 200}
+{"prompt": "What causes rain?", "max_tokens": 150}
+{"prompt": "List 5 tips for better sleep.", "max_tokens": 200}
+{"prompt": "Explain quantum computing briefly.", "max_tokens": 200}
