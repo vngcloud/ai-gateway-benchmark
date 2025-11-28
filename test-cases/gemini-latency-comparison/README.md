@@ -3,7 +3,7 @@
 This benchmark compares the latency performance of calling Google Gemini API through three different methods:
 
 1. **Direct Google Gemini API** - Calling Google's API directly
-2. **VNGCloud AIPlatform** - Calling Gemini via VNGCloud AIPlatform
+2. **VNGCloud AIPlatform** - Calling Gemini via VNGCloud AIPlatform (Model as a Service)
 3. **VNGCloud AI Gateway** - Calling Gemini via VNGCloud AI Gateway (pointing to AIPlatform)
 
 ## Test Configuration
