@@ -10,7 +10,7 @@ This benchmark compares the latency performance of calling Google Gemini API thr
 
 | Parameter | Value |
 |-----------|-------|
-| Model | `gemini-2.0-flash-lite` |
+| Model | `gemini-2.5-flash-lite` |
 | Dataset | ShareGPT_Vicuna_unfiltered (1000 prompts) |
 | Max Tokens | 512 |
 | Temperature | 0.0 |

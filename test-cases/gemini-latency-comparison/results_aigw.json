@@ -1,8 +1,8 @@
 {
   "config": {
     "dataset": "test-cases/gemini-latency-comparison/datasets/ShareGPT_Vicuna_unfiltered.jsonl",
-    "model": "gemini-2.0-flash-lite",
-    "base_url": "https://user-60108-annd2.ai-gateway.vngcloud.vn/gemini/gemini-2.0-flash-lite",
+    "model": "gemini/gemini-2.5-flash-lite",
+    "base_url": "https://user-60108-annd2.ai-gateway.vngcloud.vn/openai-compatible/gemini/gemini-2.5-flash-lite",
     "max_tokens": 512,
     "temperature": 0.0,
     "concurrency": 5,
@@ -11,28 +11,28 @@
   "metrics": {
     "completed": 1000,
     "failed": 0,
-    "duration_s": 624.1115516069985,
-    "requests_per_second": 1.6022776656274702,
-    "tokens_per_second": 686.9461058621309,
+    "duration_s": 502.88234065900906,
+    "requests_per_second": 1.988536719522774,
+    "tokens_per_second": 887.0524254548776,
     "ttft": {
-      "mean_ms": 599.2910674886953,
-      "median_ms": 594.151409008191,
-      "std_ms": 60.9344332039539,
-      "p50_ms": 594.151409008191,
-      "p90_ms": 670.1620281120995,
-      "p99_ms": 810.6296966713851
+      "mean_ms": 607.7259216909588,
+      "median_ms": 622.413623976172,
+      "std_ms": 133.44172622594886,
+      "p50_ms": 622.413623976172,
+      "p90_ms": 758.5129229002632,
+      "p99_ms": 892.7071603230432
     },
     "itl": {
-      "mean_ms": 273.680098497611,
-      "median_ms": 294.12836700794287,
-      "std_ms": 144.76079997169302,
-      "p50_ms": 294.12836700794287,
-      "p90_ms": 446.4233294129372,
-      "p99_ms": 561.3926683249886
+      "mean_ms": 190.15364383493835,
+      "median_ms": 201.57519899657927,
+      "std_ms": 101.10814084299186,
+      "p50_ms": 201.57519899657927,
+      "p90_ms": 308.6730312090367,
+      "p99_ms": 405.39620718976954
     },
     "e2e": {
-      "mean_ms": 3107.5691702193,
-      "median_ms": 3464.706645492697
+      "mean_ms": 2502.9872897937894,
+      "median_ms": 2638.768410994089
     }
   }
 }
