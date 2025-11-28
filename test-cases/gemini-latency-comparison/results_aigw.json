@@ -1,6 +1,6 @@
 {
   "config": {
-    "dataset": "test-cases/compare-.../datasets/ShareGPT_Vicuna_unfiltered.jsonl",
+    "dataset": "test-cases/gemini-latency-comparison/datasets/ShareGPT_Vicuna_unfiltered.jsonl",
     "model": "gemini-2.0-flash-lite",
     "base_url": "https://user-60108-annd2.ai-gateway.vngcloud.vn/gemini/gemini-2.0-flash-lite",
     "max_tokens": 512,
